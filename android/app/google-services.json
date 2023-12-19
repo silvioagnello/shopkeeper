@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788900050839",
+    "project_id": "virtualstory-a2c93",
+    "storage_bucket": "virtualstory-a2c93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788900050839:android:e68b30801265bc45d076d2",
+        "android_client_info": {
+          "package_name": "br.com.scali.shopkeeper.shopkeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5hWA-Pj4w-miqSU7zaUlYYii_gwx09YI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788900050839:android:a411a4e19b73c934d076d2",
+        "android_client_info": {
+          "package_name": "br.com.scali.virtualstory.virtual_story"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5hWA-Pj4w-miqSU7zaUlYYii_gwx09YI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
