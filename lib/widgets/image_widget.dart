@@ -4,16 +4,12 @@ import 'package:shopkeeper/widgets/image_source_sheet.dart';
 class ImagesWidget extends FormField<List> {
   ImagesWidget({
     required BuildContext context,
-    required FormFieldSetter<List> onSaved,
-    required List initialValue,
-    validator,
-    autovalidateMode,
-    // bool autoValidate = false,
+    super.onSaved,
+    super.validator,
+    super.initialValue,
+    autovalidateMode = AutovalidateMode.disabled,
   }) : super(
-            onSaved: onSaved,
-            validator: validator,
-            initialValue: initialValue,
-            autovalidateMode: AutovalidateMode.disabled,
+            autovalidateMode: autovalidateMode,
             //autoValidate,
             builder: (state) {
               return Column(
@@ -80,8 +76,5 @@ class ImagesWidget extends FormField<List> {
                       : Container()
                 ],
               );
-            }) {
-    // TODO: implement ImagesWidget
-    throw UnimplementedError();
-  }
+            });
 }

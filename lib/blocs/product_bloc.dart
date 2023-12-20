@@ -20,7 +20,7 @@ class ProductBloc extends BlocBase {
   late Map<String, dynamic> unsavedData;
 
   ProductBloc({required this.categoryId, required this.product}) {
-    //unsavedData = Map.of(product.data);
+    unsavedData = Map.of(product.data() as Map<String, dynamic>);
     unsavedData["images"] = List.of(product.get("images"));
     unsavedData["sizes"] = List.of(product.get("sizes"));
 

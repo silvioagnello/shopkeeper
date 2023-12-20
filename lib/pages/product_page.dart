@@ -98,7 +98,9 @@ class _ProductPageState extends State<ProductPage> with ProductValidator {
                         context: context,
                         initialValue: snapshot.data?["images"],
                         onSaved: (y) {}, //productBloc.saveImages,
-                        validator: validateImages,
+                        validator: (validateImages) {
+                          return null;
+                        },
                       ),
                       TextFormField(
                           initialValue: snapshot.data?["title"],
